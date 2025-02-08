@@ -1,0 +1,176 @@
+.jumbotron{
+   background-color:#c71608;
+   padding: 20px;
+   text-align: center;
+}
+
+#tagline{
+  margin-top: -15px;
+  font-style: italic;
+  color: gold;
+}
+
+ul{
+  list-style-type: none; /*used to remove bullet*/
+  margin: 0px;
+  padding: 0px;
+  background-color: gold;
+  width: 100%;
+  overflow: hidden;
+  margin-top: -30px;
+}
+li{
+  float: left;
+}
+
+li a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+li a:hover{
+
+  color: white;
+  text-decoration: none;
+  background-color: black;
+}
+
+.abc{
+  height: 450px;
+  background-color: black;
+  border: none;
+}
+
+.row{
+  margin-top: 30px;
+}
+
+body{
+  background-color: black;
+  color: white;
+}
+
+.xyz{
+  background-color: black;
+  border: none;
+
+}
+
+.card{
+
+  
+  border-top: 20px solid limegreen;
+  border-radius: 10px 10px 0px 0px;
+}
+
+
+.card:hover{
+  transition: 0.5s;
+ box-shadow: 0 0 10px 5px rgba(255, 223, 0, 0.7);
+
+
+
+}
+.cardcontainer{
+  padding: 4px 50px;
+  background-color: limegreen;
+  padding-bottom:20px;
+}
+
+/*for nonveg*/
+
+.cardn{
+  border-top:20px solid red;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.noncontainer{
+  padding: 4px 50px;
+  background-color: red;
+  padding-bottom: 20px;
+}
+
+.butn{
+ background-color:gold ;
+ color: black;
+  padding: 5px 15px;
+  border: none;
+  border-radius:20px ;
+  font-size: 15px;
+}
+
+
+@font-face{
+   font-family: myfont;
+   src:url(myfont.ttf);
+
+}
+
+#title{
+  font-family: myfont;
+  font-style: italic;
+  font-weight: bold;
+  color: goldenrod;
+
+}
+
+@font-face{
+  font-family:burger ;
+  src: url(burger.ttf);
+}
+#name{
+   font-family: burger;
+  font-style: italic;
+  color: goldenrod;
+}
+
+.efg{
+  background-color: black;
+  border: none;
+}
+
+.deldata{
+  color: white;
+  width: 90%;
+
+}
+.data{
+  border: 2px dotted white;
+  padding: 10px;
+transition: transform 0.3s ease;
+
+}
+.data:hover{
+    transform: translateY(-5px);
+  }
+
+.xyz{
+  background-color: #edb707;
+  color: black;
+  width: 60%;
+  margin-left: 20%;
+}  
+
+p{
+  color: black;
+}
+
+.bullet{
+  color: black;
+  font-weight: bold;
+  font-size: 50px;
+
+}
+
+#aboutus,#burger,#pizza,#combo,#branch,#events,#contactus,#footer,#franchise{
+
+  padding-top: 70px;
+  font-size: 20px;
+  font-family: Arial;
+  margin-top: 50px;
+  padding-bottom:70px ;
+
+}
